@@ -6,6 +6,7 @@ import GMail from "./Components/Gmail";
 import LinkedIn from "./Components/LinkedIn";
 import Skills from "./Components/Skills";
 const ProjectDisplay = lazy(() => import("./Components/ProjectDisplay"));
+const TimelineDisplay = lazy(() => import("./Components/TimelineDisplay"));
 
 function App() {
   return (
@@ -37,6 +38,10 @@ function App() {
       <div className="my-40"></div>
       <LazyLoader>
         <ProjectDisplay />
+      </LazyLoader>
+      <div className="my-40"></div>
+      <LazyLoader>
+        <TimelineDisplay />
       </LazyLoader>
     </div>
   );
