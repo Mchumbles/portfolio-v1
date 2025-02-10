@@ -16,7 +16,12 @@ import {
   SiDotenv,
   SiComposer,
   SiExpressvpn,
+  SiGit,
+  SiGithub,
+  SiTypescript,
 } from "react-icons/si";
+
+import { MdStorage } from "react-icons/md";
 
 import { IconType } from "react-icons";
 
@@ -27,9 +32,11 @@ interface Technology {
 
 const languages: Technology[] = [
   { icon: SiJavascript, title: "JavaScript" },
+  { icon: SiTypescript, title: "TypeScript" },
   { icon: SiPhp, title: "PHP" },
   { icon: SiHtml5, title: "HTML5" },
   { icon: SiCss3, title: "CSS3" },
+  { icon: MdStorage, title: "SQL" },
 ];
 
 const skills: Technology[] = [
@@ -46,6 +53,8 @@ const skills: Technology[] = [
   { icon: SiDotenv, title: "Dotenv" },
   { icon: SiComposer, title: "Composer" },
   { icon: SiExpressvpn, title: "ExpressVPN" },
+  { icon: SiGit, title: "Git" },
+  { icon: SiGithub, title: "GitHub" },
 ];
 
 export { languages, skills };
