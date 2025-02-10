@@ -3,13 +3,14 @@ import GitHub from "./Components/Github";
 import GMail from "./Components/Gmail";
 import LinkedIn from "./Components/LinkedIn";
 import ProjectDisplay from "./Components/ProjectDisplay";
+import Skills from "./Components/Skills";
 
 function App() {
   return (
     <body>
       <header className="my-5">
-        <h1 className="text-center text-3xl p-4  ">Lewis Mcguire</h1>
-        <h2 className="text-center text-lg p-2">
+        <h1 className="text-center text-4xl p-4  ">Lewis Mcguire</h1>
+        <h2 className="text-center text-2xl p-2">
           Junior Software Engineer & Web Developer
         </h2>
         <div className="flex flex-col items-center">
@@ -24,6 +25,7 @@ function App() {
       <LinkedIn />
       <GMail />
       <GitHub />
+      <Skills />
       <ProjectDisplay />
     </body>
   );

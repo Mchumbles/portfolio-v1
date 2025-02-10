@@ -15,6 +15,7 @@ import {
   SiPhp,
   SiDotenv,
   SiComposer,
+  SiExpressvpn,
 } from "react-icons/si";
 
 import { IconType } from "react-icons";
@@ -44,6 +45,8 @@ const projects: Project[] = [
       SiJest,
       SiAxios,
       SiSupabase,
+      SiExpressvpn,
+      SiDotenv,
     ],
     link: "https://lm-nc-news.netlify.app/",
   },
