@@ -2,6 +2,7 @@ import DarkLightMode from "./Components/DarkLightMode";
 import GitHub from "./Components/Github";
 import GMail from "./Components/Gmail";
 import LinkedIn from "./Components/LinkedIn";
+import ProjectDisplay from "./Components/ProjectDisplay";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <LinkedIn />
       <GMail />
       <GitHub />
+      <ProjectDisplay />
     </body>
   );
 }
