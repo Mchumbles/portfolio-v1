@@ -85,7 +85,7 @@ const projects: Project[] = [
       SiNetlify,
       SiNodedotjs,
     ],
-    link: "https://github.com/Mchumbles/giorgias-website",
+    link: "https://giorgiaciampitsolaki.com/?fbclid=IwY2xjawIW83JleHRuA2FlbQIxMAABHcaAbdxo_EO928FqKAvlmtUkjfB0es17QYsJnEcZOkasFM5PqDV3LDQlfA_aem_5MY8k3BjSdvZ23dBL-Fkew",
   },
 ];
 

@@ -5,12 +5,13 @@ import GitHub from "./Components/Github";
 import GMail from "./Components/Gmail";
 import LinkedIn from "./Components/LinkedIn";
 import Skills from "./Components/Skills";
+import Contact from "./Components/Contact";
 const ProjectDisplay = lazy(() => import("./Components/ProjectDisplay"));
 const TimelineDisplay = lazy(() => import("./Components/TimelineDisplay"));
 
 function App() {
   return (
-    <div>
+    <main>
       <header className="my-5">
         <h1 className="text-center text-4xl p-4">Lewis Mcguire</h1>
         <h2 className="text-center text-2xl p-2 mb-10">
@@ -43,7 +44,10 @@ function App() {
       <LazyLoader>
         <TimelineDisplay />
       </LazyLoader>
-    </div>
+      <LazyLoader>
+        <Contact rows={6} />
+      </LazyLoader>
+    </main>
   );
 }
 
