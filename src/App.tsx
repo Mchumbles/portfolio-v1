@@ -6,6 +6,7 @@ import GMail from "./Components/Gmail";
 import LinkedIn from "./Components/LinkedIn";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 const ProjectDisplay = lazy(() => import("./Components/ProjectDisplay"));
 const TimelineDisplay = lazy(() => import("./Components/TimelineDisplay"));
 
@@ -46,6 +47,9 @@ function App() {
       </LazyLoader>
       <LazyLoader>
         <Contact rows={6} />
+      </LazyLoader>
+      <LazyLoader>
+        <Footer />
       </LazyLoader>
     </main>
   );
