@@ -1,50 +1,64 @@
-# React + TypeScript + Vite
+# Portfolio v1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A stylish and responsive portfolio website highlighting projects, skills, and career achievements, built with React, TailwindCSS, and Framer Motion.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[View Portfolio](https://lewismcguiredev.netlify.app/)
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Lazy Loading**: Implements `react-intersection-observer` for smooth content loading.
+- **Framer Motion Animations**: Adds engaging animations to elements.
+- **Dark Mode**: Users can toggle between light and dark themes.
+- **Timeline Display**: Uses `react-chrono` to visualize career milestones.
+- **Project Showcase**: Highlights key projects with technologies used.
+- **Contact Form Integration**: Uses getform.io to handle form submissions seamlessly.
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠 Tech Stack
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **Frontend**: React, TypeScript, TailwindCSS, Framer Motion
+- **Utilities**: React Icons, React Chrono, Intersection Observer
+- **Build Tools**: Vite, ESLint, PostCSS
+
+## ⚡ Installation & Setup
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Mchumbles/portfolio-v1.git
+   cd portfolio-v1
+   ```
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+3. **Run the development server:**
+   ```sh
+   npm run dev
+   ```
+4. **Build for production:**
+   ```sh
+   npm run build
+   ```
+
+## 📩 Contact Form Integration
+
+This project uses Getform.io for handling form submissions.
+
+Simply submit the form, and Getform.io captures the data.
+
+No backend needed—view submissions in the Getform.io dashboard.
+
+Replace the action URL in Contact.tsx with your Getform endpoint:
+
+```sh
+<form action="YOUR_GETFORM_ENDPOINT" method="POST">
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🤝 Contributions
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Feel free to fork and contribute! Open a pull request for suggestions and improvements.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 📝 License
+
+This project is licensed under the MIT License.
