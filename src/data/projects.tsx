@@ -16,6 +16,7 @@ import {
   SiDotenv,
   SiComposer,
   SiExpressvpn,
+  SiTypescript,
 } from "react-icons/si";
 
 import { IconType } from "react-icons";
@@ -83,9 +84,22 @@ const projects: Project[] = [
       SiTailwindcss,
       SiVite,
       SiNetlify,
-      SiNodedotjs,
     ],
     link: "https://giorgiaciampitsolaki.com/?fbclid=IwY2xjawIW83JleHRuA2FlbQIxMAABHcaAbdxo_EO928FqKAvlmtUkjfB0es17QYsJnEcZOkasFM5PqDV3LDQlfA_aem_5MY8k3BjSdvZ23dBL-Fkew",
+  },
+  {
+    title: "To-do list",
+    image: "/images/tdlist-img.png",
+    stack: [
+      SiCss3,
+      SiHtml5,
+      SiTypescript,
+      SiJavascript,
+      SiReact,
+      SiVite,
+      SiNetlify,
+    ],
+    link: "https://tdlistly.netlify.app/",
   },
 ];
 
