@@ -15,10 +15,10 @@ function App() {
     <main>
       <header className="my-5">
         <h1 className="text-center text-4xl p-4">Lewis Mcguire</h1>
-        <h2 className="text-center text-2xl p-2 mb-10">
+        <h2 className="text-center text-xl sm:text-2xl p-2 mb-10">
           Junior Software Engineer <br></br> & Web Developer
         </h2>
-        <p className="text-center text-lg px-4 md:w-3/4 lg:w-1/2 mx-auto mb-10">
+        <p className="text-center text-lg  px-4 md:w-3/4 lg:w-1/2 mx-auto mb-10">
           Passionate full-stack developer committed to building efficient,
           scalable web applications and writing clean, maintainable code. Always
           eager to learn new technologies to enhance my skills and deliver

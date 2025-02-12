@@ -73,7 +73,7 @@ const projects: Project[] = [
     link: "https://github.com/Mchumbles/php-user-login",
   },
   {
-    title: "Artist Portfolio",
+    title: "Artist Portfolio (In progress)",
     image: "/images/Artist-portfolio-img.png",
     stack: [
       SiCss3,

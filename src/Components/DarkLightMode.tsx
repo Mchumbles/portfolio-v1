@@ -62,7 +62,7 @@ function DarkLightMode() {
     <button
       type="button"
       onClick={handleSchemeSwitch}
-      className="absolute p-1 z-10 left-7 top-6 mr-4 bg-violet-300 dark:bg-cyan-600 text-lg rounded-md hover:bg-violet-400"
+      className="absolute p-1 z-10 left-4 top-9 mr-4 bg-violet-300 dark:bg-cyan-600 text-lg rounded-md hover:bg-violet-400"
     >
       {scheme === "dark" ? sun : moon}
     </button>
