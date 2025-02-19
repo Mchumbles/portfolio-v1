@@ -17,6 +17,7 @@ import {
   SiComposer,
   SiExpressvpn,
   SiTypescript,
+  SiNextdotjs,
 } from "react-icons/si";
 
 import { IconType } from "react-icons";
@@ -100,6 +101,20 @@ const projects: Project[] = [
       SiNetlify,
     ],
     link: "https://tdlistly.netlify.app/",
+  },
+  {
+    title: "Pokédex App",
+    image: "/images/pokemon-app-img.png",
+    stack: [
+      SiTypescript,
+      SiReact,
+      SiVite,
+      SiNextdotjs,
+      SiTailwindcss,
+      SiAxios,
+      SiNetlify,
+    ],
+    link: "https://pokemoninformationapp.netlify.app/",
   },
 ];
 

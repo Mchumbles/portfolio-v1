@@ -19,6 +19,7 @@ import {
   SiGit,
   SiGithub,
   SiTypescript,
+  SiNextdotjs,
 } from "react-icons/si";
 
 import { MdStorage } from "react-icons/md";
@@ -50,6 +51,7 @@ const skills: Technology[] = [
   { icon: SiReact, title: "React" },
   { icon: SiReactbootstrap, title: "React Bootstrap" },
   { icon: SiNodedotjs, title: "Node.js" },
+  { icon: SiNextdotjs, title: "Next.js" },
   { icon: SiDotenv, title: "Dotenv" },
   { icon: SiComposer, title: "Composer" },
   { icon: SiExpressvpn, title: "ExpressVPN" },
